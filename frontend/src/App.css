@@ -1,0 +1,100 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.dropdowns {
+  display: flex;
+  gap: 50px;
+  width: max-content;
+  border: 0.5px solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 68px;
+}
+
+.lang , .difficulty {
+  padding: 10px;
+  font-weight: bold;
+}
+
+select {
+  height: 30px;
+  width: 150px;
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.editor {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.workspace {
+  display: flex;
+  gap: 20px;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  border: 0.5px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.output {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 38%;
+  padding: 10px;
+  font-size: large;  
+  overflow: scroll;
+}
+
+pre {
+  border: 0.5px solid black;
+  height: 70%;
+  padding: 10px;
+  overflow: scroll;
+}
+
+.button {
+  width: 20%;
+  margin: auto;
+  height: 40px;
+  background-color: rgb(50, 113, 209);
+  border: 0;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: white;
+}
+
+.opHeading {
+  display: flex;
+  gap: 30px;
+  border-bottom: 0.5px solid;
+}
+
+.actualOp {
+  max-width: 90%;
+  margin: auto;
+  overflow-wrap: break-word;
+}
+
+.ppp {
+  overflow-wrap: break-word;
+}
+
+.expop {
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: underline;
+}
