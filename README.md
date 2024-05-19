@@ -21,10 +21,19 @@ To get started with Web Compiler, simply clone the repository and follow the ins
 ```sh
 git clone https://github.com/yourusername/web-compiler.git
 cd web-compiler
-
+```
+**Build docker image and run container:**
+```sh
 docker build -t web-compiler .
 docker run -p 5000:5000 web-compiler
 ```
+
+**Start the frontend:**
+```sh
+cd frontend
+npm start
+```
+
 Access the Application: Open your browser and navigate to http://localhost:3000.
 
 Contributing
